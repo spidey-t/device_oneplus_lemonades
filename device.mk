@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+HBM_SUPPORTED := true
+HBM_NODE := /sys/kernel/oplus_display/hbm
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
