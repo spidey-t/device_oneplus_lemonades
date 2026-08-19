@@ -39,7 +39,7 @@
     <highBrightnessMode enabled="true">
         <transitionPoint>0.4998778998778999</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
-        <minimumLux>20000</minimumLux>
+        <minimumLux>25026</minimumLux>
         <timing>
             <timeWindowSecs>1800</timeWindowSecs>
             <timeMaxSecs>300</timeMaxSecs>
@@ -88,13 +88,10 @@
             <point><value>100</value><nits>2.8462767128494475</nits></point>
         </luxToMinimumNitsMap>
     </evenDimmer>
-    
-    <ambientBrightnessChangeThresholds>  // Thresholds for lux changes
+
+    <ambientBrightnessChangeThresholds>
         <brighteningThresholds>
-            // Minimum change needed in ambient brightness to brighten screen.
             <minimum>0</minimum>
-            // Percentage increase of lux needed to increase the screen brightness at a lux range
-            // above the specified threshold.
             <brightnessThresholdPoints>
                 <brightnessThresholdPoint><threshold>0</threshold><percentage>20</percentage></brightnessThresholdPoint>
                 <brightnessThresholdPoint><threshold>20</threshold><percentage>10</percentage></brightnessThresholdPoint>
@@ -107,10 +104,7 @@
             </brightnessThresholdPoints>
         </brighteningThresholds>
         <darkeningThresholds>
-            // Minimum change needed in ambient brightness to darken screen.
             <minimum>0</minimum>
-            // Percentage increase of lux needed to decrease the screen brightness at a lux range
-            // above the specified threshold.
             <brightnessThresholdPoints>
                 <brightnessThresholdPoint><threshold>0</threshold><percentage>70</percentage></brightnessThresholdPoint>
                 <brightnessThresholdPoint><threshold>20</threshold><percentage>80</percentage></brightnessThresholdPoint>
@@ -121,22 +115,16 @@
             </brightnessThresholdPoints>
         </darkeningThresholds>
     </ambientBrightnessChangeThresholds>
-    
-    <displayBrightnessChangeThresholds>   // Thresholds for screen brightness changes
+
+    <displayBrightnessChangeThresholds>
         <brighteningThresholds>
-            // Minimum change needed in screen brightness to brighten screen.
             <minimum>0</minimum>
-            // Percentage increase of screen brightness needed to increase the screen brightness
-            // at a lux range above the specified threshold.
             <brightnessThresholdPoints>
                 <brightnessThresholdPoint><threshold>0</threshold><percentage>0</percentage></brightnessThresholdPoint>
             </brightnessThresholdPoints>
         </brighteningThresholds>
         <darkeningThresholds>
-            // Minimum change needed in screen brightness to darken screen.
             <minimum>0</minimum>
-            // Percentage increase of screen brightness needed to decrease the screen brightness
-            // at a lux range above the specified threshold.
             <brightnessThresholdPoints>
                 <brightnessThresholdPoint><threshold>0</threshold><percentage>0</percentage></brightnessThresholdPoint>
             </brightnessThresholdPoints>

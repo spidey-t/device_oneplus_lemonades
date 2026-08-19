@@ -37,8 +37,6 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 # Disable Sunlight Enhancement, prefer AOSP HBM for smoother user experience.
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
-# AntiFlicker
-$(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AF,true)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
