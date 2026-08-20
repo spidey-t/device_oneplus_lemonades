@@ -16,9 +16,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hbmservice_support=true
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonades
+PRODUCT_NAME := lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
