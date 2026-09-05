@@ -13,6 +13,6 @@ git clone https://github.com/spidey-t/vendor_oneplus_lemonades.git -b lineage-23
 git clone https://github.com/spidey-t/hardware_oplus.git hardware/oplus
 
 # Kernel
-git clone https://github.com/spidey-t/kernel_oneplus_sm8250.git -b lineage-24-test kernel/oneplus/sm8250
+git clone https://github.com/spidey-t/android_kernel_oneplus_sm8250.git -b lineage-23.2 kernel/oneplus/sm8250
 
 echo "All repositories cloned successfully!"
