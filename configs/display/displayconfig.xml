@@ -149,16 +149,16 @@
                 <point><first>30</first><second>0.027309750368882342</second></point>
                 <point><first>50</first><second>0.039829878364427904</second></point>
                 <point><first>70</first><second>0.05198605528959794</second></point>
-                <point><first>100</first><second>0.06626769510722687</second></point>
-                <point><first>150</first><second>0.0825706458166296</second></point>
-                <point><first>200</first><second>0.09326676266998064</second></point>
-                <point><first>300</first><second>0.10949579179617204</second></point>
-                <point><first>500</first><second>0.1352904672681044</second></point>
-                <point><first>700</first><second>0.15528777427558055</second></point>
-                <point><first>1000</first><second>0.17825863269955322</second></point>
-                <point><first>1500</first><second>0.20939363996144972</second></point>
-                <point><first>2000</first><second>0.23552178322894318</second></point>
-                <point><first>3000</first><second>0.2742143924466065</second></point>
+                <point><first>100</first><second>0.056000000000000004</second></point>
+                <point><first>150</first><second>0.07000000000000001</second></point>
+                <point><first>200</first><second>0.07900000000000002</second></point>
+                <point><first>300</first><second>0.09200000000000001</second></point>
+                <point><first>500</first><second>0.11500000000000002</second></point>
+                <point><first>700</first><second>0.13200000000000003</second></point>
+                <point><first>1000</first><second>0.15200000000000002</second></point>
+                <point><first>1500</first><second>0.17900000000000005</second></point>
+                <point><first>2000</first><second>0.20300000000000001</second></point>
+                <point><first>3000</first><second>0.23600000000000004</second></point>
                 <point><first>5000</first><second>0.33193450089916504</second></point>
                 <point><first>7000</first><second>0.37708820113542546</second></point>
                 <point><first>10000</first><second>0.4302743348598362</second></point>
