@@ -15,4 +15,7 @@ git clone https://github.com/spidey-t/hardware_oplus.git hardware/oplus
 # Kernel
 git clone https://github.com/spidey-t/kernel_oneplus_sm8250.git -b lineage-24-test kernel/oneplus/sm8250
 
+#viper4a
+git clone https://github.com/spidey-t/packages_apps_ViPER4AndroidFX.git -b main vendor/viper
+
 echo "All repositories cloned successfully!"
