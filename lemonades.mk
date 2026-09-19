@@ -18,7 +18,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lemonades
+
+# ViPER4Android
+$(call inherit-product, vendor/viper/viper.mk)
+
+PRODUCT_NAME := lineage_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
