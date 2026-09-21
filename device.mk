@@ -52,6 +52,8 @@ PRODUCT_PACKAGES += \
 HBM_SUPPORTED := true
 HBM_NODE := /sys/kernel/oplus_display/hbm
 
+BYPASS_CHARGE_SUPPORTED := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
