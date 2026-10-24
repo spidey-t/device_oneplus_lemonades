@@ -13,6 +13,10 @@ INFINITY_MAINTAINER := Spidey
 TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
 
+TARGET_ENABLE_BLUR := true
+MISTOS_MAINTAINER := Spidey
+WITH_GMS := true
+
 # Inherit from lemonades device
 $(call inherit-product, device/oneplus/lemonades/device.mk)
 
@@ -20,12 +24,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hbmservice_support=true
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # ViPER4Android
 $(call inherit-product, vendor/viper/viper.mk)
 
-PRODUCT_NAME := infinity_lemonades
+PRODUCT_NAME := lineage_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

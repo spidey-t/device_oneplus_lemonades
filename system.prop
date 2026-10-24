@@ -1,3 +1,13 @@
 ro.product.marketname=OnePlus 9R
 ro.infinity.soc=Snapdragon 870
 ro.infinity.camera=48MP + 16MP + 5MP + 2MP
+
+
+ro.mist.display=1080 x 2400, 120 Hz
+ro.mist.battery=4500mAh
+ro.mist.soc=Snapdragon™ 870 5G
+ro.mist.camera=48MP + 16MP + 5MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM8250-AC
+ro.mist.screen=6.55' Fluid AMOLED
+ro.mist.device.name=OnePlus 9R
