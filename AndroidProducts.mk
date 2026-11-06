@@ -5,4 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_lemonades.mk
+    $(LOCAL_DIR)/infinity_lemonades.mk \
+    $(LOCAL_DIR)/lineage_lemonades.mk
