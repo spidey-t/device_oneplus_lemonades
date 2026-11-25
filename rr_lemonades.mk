@@ -21,7 +21,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hbmservice_support=true
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # ViPER4Android
 $(call inherit-product, vendor/viper/viper.mk)
