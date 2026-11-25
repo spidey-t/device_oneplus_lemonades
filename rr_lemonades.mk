@@ -26,7 +26,7 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 # ViPER4Android
 $(call inherit-product, vendor/viper/viper.mk)
 
-PRODUCT_NAME := infinity_lemonades
+PRODUCT_NAME := rr_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
